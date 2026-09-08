@@ -1,0 +1,6 @@
+{
+  "name": "Elevation Engineering Web",
+  "description": "Corporate website and interactive national project showcase for Elevation Engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
