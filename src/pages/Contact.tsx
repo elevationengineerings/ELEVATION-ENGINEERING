@@ -58,7 +58,7 @@ export default function Contact() {
                 <Linkedin size={28} />
               </div>
               <h3 className="text-lg font-bold text-slate-900 uppercase tracking-widest">Connect</h3>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-slate-700 font-medium hover:text-[#FF6B00] transition-colors flex items-center gap-2">
+              <a href="https://www.linkedin.com/company/elevation-engineering" target="_blank" rel="noopener noreferrer" className="text-2xl text-slate-700 font-medium hover:text-[#FF6B00] transition-colors flex items-center gap-2">
                 LinkedIn Profile
               </a>
             </div>
