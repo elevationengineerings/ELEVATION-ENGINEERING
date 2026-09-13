@@ -45,8 +45,8 @@ export default function Contact() {
                 <Mail size={28} />
               </div>
               <h3 className="text-lg font-bold text-slate-900 uppercase tracking-widest">Email Us</h3>
-              <a href="mailto:info@elevationengineering.com" className="text-2xl text-slate-700 font-medium hover:text-[#FF6B00] transition-colors">
-                info@elevationengineering.com
+              <a href="mailto:info@elevationengineering.in" className="text-2xl text-slate-700 font-medium hover:text-[#FF6B00] transition-colors">
+                info@elevationengineering.in
               </a>
             </div>
 
