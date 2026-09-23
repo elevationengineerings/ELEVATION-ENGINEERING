@@ -129,6 +129,35 @@ export default function FlameproofElevatorsIndia() {
         </div>
       </section>
 
+      {/* Industries We Serve */}
+<section className="py-16">
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="text-3xl font-bold mb-10">
+      Industries We Serve
+    </h2>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {[
+        'Oil & Gas',
+        'Petroleum Refineries',
+        'Petrochemical Plants',
+        'Chemical Plants',
+        'Industrial Manufacturing',
+        'Hazardous Industrial Facilities',
+      ].map((industry) => (
+        <div
+          key={industry}
+          className="border border-slate-200 rounded-xl p-6"
+        >
+          <h3 className="text-xl font-semibold">
+            {industry}
+          </h3>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
       {/* Services */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-6">
