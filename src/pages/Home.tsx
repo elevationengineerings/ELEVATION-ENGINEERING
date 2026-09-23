@@ -63,18 +63,26 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.3 }}
             className="flex flex-wrap items-center justify-center gap-4"
           >
-            <Link
-              to="/offering"
-              className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
-            >
-              Explore Solutions <ArrowRight size={16} />
-            </Link>
-            <Link
-              to="/gallery"
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
-            >
-              View Projects
-            </Link>
+           <Link
+  to="/offering"
+  className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
+>
+  Explore Solutions <ArrowRight size={16} />
+</Link>
+
+<Link
+  to="/flameproof-elevators-in-india"
+  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
+>
+  Flameproof Elevators in India
+</Link>
+
+<Link
+  to="/gallery"
+  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
+>
+  View Projects
+</Link>
           </motion.div>
         </div>
 
