@@ -62,12 +62,13 @@ export default function FlameproofElevatorsIndia() {
           </h2>
 
           <p className="text-lg text-slate-600 leading-relaxed mb-6">
-            Elevation Engineering provides specialized elevator solutions
-            for industrial environments where conventional elevator
-            equipment may not be suitable. Our services cover the supply,
-            installation, commissioning, maintenance and inspection of
-            elevators used in demanding industrial facilities.
-          </p>
+  Elevation Engineering provides flameproof elevator solutions for
+  refineries, oil & gas facilities, petrochemical plants, chemical
+  plants and other hazardous industrial environments across India.
+  Our services include the supply, installation, testing,
+  commissioning, maintenance and inspection of industrial elevator
+  systems based on project-specific requirements.
+</p>
 
           <p className="text-lg text-slate-600 leading-relaxed">
             Our focus is on supporting industrial projects with elevator
