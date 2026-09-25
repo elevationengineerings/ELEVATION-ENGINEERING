@@ -36,21 +36,22 @@ export default function FlameproofElevatorsIndia() {
   return (
     <div className="bg-white text-slate-900">
       {/* Hero */}
-      <section className="bg-slate-900 text-white py-20">
-        <div className="max-w-7xl mx-auto px-6">
-  <div className="text-center">
+<section className="bg-slate-900 text-white py-20">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center">
 
-          <h1 className="text-4xl md:text-6xl font-bold max-w-4xl leading-tight">
-            Flameproof Elevators in India
-          </h1>
+      <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        Flameproof Elevators in India
+      </h1>
 
-          <p className="mt-6 text-lg md:text-xl text-slate-300 max-w-3xl leading-relaxed">
-            Flameproof elevator solutions for refineries, oil & gas,
-            petrochemical, chemical and other hazardous industrial
-            environments across India.
-          </p>
-        </div>
-      </section>
+      <p className="text-lg md:text-xl mt-6 max-w-4xl mx-auto text-slate-300">
+        Flameproof elevator solutions for refineries, oil & gas, petrochemical,
+        chemical and other hazardous industrial environments across India.
+      </p>
+
+    </div>
+  </div>
+</section>
 
       {/* Introduction */}
       <section className="py-16">
