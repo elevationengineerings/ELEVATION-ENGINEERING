@@ -346,7 +346,7 @@ export default function Home() {
       </section>
 
 {/* Action Buttons */}
-<div className="w-full flex justify-center items-center py-8">
+<div className="w-full h-[220px] flex items-center justify-center">
   <div className="flex items-center justify-center gap-4">
     <Link
       to="/offering"
