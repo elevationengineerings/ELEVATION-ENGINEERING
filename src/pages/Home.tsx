@@ -346,26 +346,23 @@ export default function Home() {
       </section>
 
 {/* Action Buttons */}
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 0.3 }}
-  className="flex items-center justify-center gap-4 py-6"
->
-  <Link
-    to="/offering"
-    className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
-  >
-    Explore Solutions <ArrowRight size={16} />
-  </Link>
+<div className="w-full flex justify-center -mt-1 mb-12">
+  <div className="flex items-center justify-center gap-4">
+    <Link
+      to="/offering"
+      className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
+    >
+      Explore Solutions <ArrowRight size={16} />
+    </Link>
 
-  <Link
-    to="/gallery"
-    className="bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors"
-  >
-    View Projects
-  </Link>
-</motion.div>
+    <Link
+      to="/gallery"
+      className="bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors"
+    >
+      View Projects
+    </Link>
+  </div>
+</div>
       
       {/* 6. Direct Technical Consultation Call To Action */}
       <section className="py-16 md:py-24 bg-white">
