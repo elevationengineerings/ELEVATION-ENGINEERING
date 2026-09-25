@@ -350,7 +350,7 @@ export default function Home() {
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 1, delay: 0.3 }}
-  className="flex flex-wrap items-center justify-center gap-4 py-8"
+  className="flex flex-wrap items-center justify-center gap-4 py-4"
 >
   <Link
     to="/offering"
@@ -361,7 +361,7 @@ export default function Home() {
 
   <Link
     to="/gallery"
-    className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
+    className="bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors"
   >
     View Projects
   </Link>
