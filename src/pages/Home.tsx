@@ -346,8 +346,8 @@ export default function Home() {
       </section>
 
 {/* Action Buttons */}
-<div className="w-full h-[220px] flex items-center justify-center">
-  <div className="flex items-center justify-center gap-4">
+<div className="flex w-full justify-center py-8">
+  <div className="flex flex-row items-center justify-center gap-4">
     <Link
       to="/offering"
       className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
