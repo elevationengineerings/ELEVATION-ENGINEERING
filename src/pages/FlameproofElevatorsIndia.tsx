@@ -38,9 +38,6 @@ export default function FlameproofElevatorsIndia() {
       {/* Hero */}
       <section className="bg-slate-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-orange-500 font-semibold uppercase tracking-wider mb-4">
-            Elevation Engineering
-          </p>
 
           <h1 className="text-4xl md:text-6xl font-bold max-w-4xl leading-tight">
             Flameproof Elevators in India
