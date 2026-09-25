@@ -56,27 +56,6 @@ export default function Home() {
           >
             Over 25 years of specialized engineering in flameproof elevator systems, heavy-duty industrial vertical transit, and specialized refinery column mobility across India.
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.3 }}
-            className="flex flex-wrap items-center justify-center gap-4"
-          >
-           <Link
-  to="/offering"
-  className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
->
-  Explore Solutions <ArrowRight size={16} />
-</Link>
-
-<Link
-  to="/gallery"
-  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
->
-  View Projects
-</Link>
-          </motion.div>
         </div>
 
         {/* Bottom Bar: Scroll Indicator & Play Button */}
@@ -366,6 +345,28 @@ export default function Home() {
         </div>
       </section>
 
+{/* Action Buttons */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1, delay: 0.3 }}
+  className="flex flex-wrap items-center justify-center gap-4 py-8"
+>
+  <Link
+    to="/offering"
+    className="bg-[#FF6B00] hover:bg-[#e65100] text-white text-xs sm:text-sm font-bold uppercase tracking-wider px-8 py-3.5 rounded-full transition-all shadow-lg shadow-orange-500/25 flex items-center gap-2"
+  >
+    Explore Solutions <ArrowRight size={16} />
+  </Link>
+
+  <Link
+    to="/gallery"
+    className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
+  >
+    View Projects
+  </Link>
+</motion.div>
+      
       {/* 6. Direct Technical Consultation Call To Action */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-[1360px] mx-auto px-4 md:px-8">
