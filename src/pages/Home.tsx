@@ -71,13 +71,6 @@ export default function Home() {
 </Link>
 
 <Link
-  to="/flameproof-elevators-in-india"
-  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
->
-  Flameproof Elevators in India
-</Link>
-
-<Link
   to="/gallery"
   className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-semibold px-7 py-3.5 rounded-full transition-colors backdrop-blur-md"
 >
@@ -103,20 +96,7 @@ export default function Home() {
               Scroll to explore engineering
             </span>
           </motion.button>
-
-          {/* Right: Circular Floating Play Button */}
-          <motion.button
-            onClick={() => setVideoModalOpen(true)}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.95 }}
-            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white text-slate-900 flex items-center justify-center shadow-2xl shadow-black/50 hover:bg-[#FF6B00] hover:text-white transition-colors cursor-pointer shrink-0"
-            aria-label="Play Video"
-          >
-            <Play size={20} className="fill-current ml-0.5" />
-          </motion.button>
+          
         </div>
       </section>
 
